@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script>
+    
+    $(document).ready(function() {
+      $("#in1").keypress(function(event){
+        $("#d1").html("Key: " + event.which);
+      });
+    });
+    
+  </script>
+  <title>jQuery</title>
+</head>
+<body>
+
+  Enter : <input id="in1" type="text">
+  <div id="d1">D1</div>
+
+</body>
+</html>
